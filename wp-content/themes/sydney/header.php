@@ -44,12 +44,12 @@
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>	        
 		        <?php endif; ?>
 				</div>
-				<div class="col-md-8 col-sm-4 col-xs-12">
-					<div class="btn-menu"></div>
-					<nav id="mainnav" class="mainnav" role="navigation">
-						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
-					</nav><!-- #site-navigation -->
-				</div>
+<div class="col-md-8 col-sm-4 col-xs-12">
+	<div class="btn-menu"></div>
+	<nav id="mainnav" class="mainnav" role="navigation">
+		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'fallback_cb' => 'sydney_menu_fallback' ) ); ?>
+	</nav><!-- #site-navigation -->
+</div>
 				</div>
 			</div>
 		</div>
