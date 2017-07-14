@@ -1,4 +1,4 @@
-﻿# WordPress MySQL database migration
+﻿
 #
 # Generated: Tuesday 20. June 2017 23:11 UTC
 # Hostname: localhost
