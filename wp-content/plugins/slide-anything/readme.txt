@@ -28,19 +28,11 @@ Slide Anything has now been rebuilt using Owl Carousel 2, and this now provides 
 
 = Slide Anything PRO =
 
-<<<<<<< HEAD
-[SLIDE ANYTHING PRO](http://edgewebpages.com/) adds POPUPS into the mix!!
-
-With [SLIDE ANYTHING PRO](http://edgewebpages.com/) each slide can now open a MODAL POPUP, which can be an IMAGE popup, a VIDEO EMBED popup (YouTube/Vimeo), a popup containing HTML CODE or a popup displaying a WordPress SHORTCODE. This can be a very useful addition to Slide Anything, if you are wanting to create Image or Video galleries for your websites.
-
-For more information about Slide Anything PRO, [CLICK HERE](http://edgewebpages.com/).
-=======
 [SLIDE ANYTHING PRO](https://edgewebpages.com/) adds POPUPS into the mix!!
 
 With [SLIDE ANYTHING PRO](https://edgewebpages.com/) each slide can now open a MODAL POPUP, which can be an IMAGE popup, a VIDEO EMBED popup (YouTube/Vimeo), a popup containing HTML CODE or a popup displaying a WordPress SHORTCODE. This can be a very useful addition to Slide Anything, if you are wanting to create Image or Video galleries for your websites.
 
 For more information about Slide Anything PRO, [CLICK HERE](https://edgewebpages.com/).
->>>>>>> f9c71feda497fa84d93c8928e8f6048e7ceed386
 
 = Owl Carousel =
 

@@ -122,30 +122,17 @@ function version_20_upgrade_notice() {
 		echo "You do this simply by editing each existing Slide Anything slider and then clicking the UPDATE button.";
 		echo "<br/>ALSO, if you site is running a CDN CACHE, please ensure you reset/clear this cache.</p>";
 
-<<<<<<< HEAD
-		echo "<div style='float:left; width:170px; margin-right:15px;'><a href='http://edgewebpages.com/' target='_blank'>";
-		echo "<img style='width:100%;' src='http://edgewebpages.com/wp-content/uploads/2017/06/slide_anything_pro_product_image.png' /></a></div>";
-		echo "<h3 style='margin:0px !important; padding:10px 0px !important;'>SLIDE ANYTHING PRO</h3>";
-		echo "<p style='margin:0px 0px 10px !important;'><a href='http://edgewebpages.com/' target='_blank'>SLIDE ANYTHING PRO</a> ";
-		echo "adds POPUPS into the mix!!</p>";
-		echo "<p style='margin:0px 0px 10px !important;'>With <a href='http://edgewebpages.com/' target='_blank'>SLIDE ANYTHING PRO</a> ";
-=======
 		echo "<div style='float:left; width:170px; margin-right:15px;'><a href='https://edgewebpages.com/' target='_blank'>";
 		echo "<img style='width:100%;' src='https://edgewebpages.com/wp-content/uploads/2017/06/slide_anything_pro_product_image.png' /></a></div>";
 		echo "<h3 style='margin:0px !important; padding:10px 0px !important;'>SLIDE ANYTHING PRO</h3>";
 		echo "<p style='margin:0px 0px 10px !important;'><a href='https://edgewebpages.com/' target='_blank'>SLIDE ANYTHING PRO</a> ";
 		echo "adds POPUPS into the mix!!</p>";
 		echo "<p style='margin:0px 0px 10px !important;'>With <a href='https://edgewebpages.com/' target='_blank'>SLIDE ANYTHING PRO</a> ";
->>>>>>> f9c71feda497fa84d93c8928e8f6048e7ceed386
 		echo "each slide can now open a MODAL POPUP, which can be an IMAGE popup, a VIDEO EMBED popup (YouTube/Vimeo), a popup containing ";
 		echo "HTML CODE or a popup displaying a WordPress SHORTCODE. This can be a very useful addition to Slide Anything, if you are ";
 		echo "wanting to create Image or Video galleries for your websites.</p>";
 		echo "<p style='margin:0px 0px 10px !important;'>For more information about Slide Anything PRO, ";
-<<<<<<< HEAD
-		echo "<a href='http://edgewebpages.com/' target='_blank'>CLICK HERE.</a></p>";
-=======
 		echo "<a href='https://edgewebpages.com/' target='_blank'>CLICK HERE.</a></p>";
->>>>>>> f9c71feda497fa84d93c8928e8f6048e7ceed386
 
 		echo "<div style='clear:both; float:none; width:100%; height:10px;'></div>";
 		echo "<a style='display:inline-block; float:right; padding:7px 10px; background:crimson; color:white; text-decoration:none; ";
@@ -1043,21 +1030,11 @@ function cpt_slider_slides_content($post) {
 				$popup_image_full = wp_get_attachment_image_src($popup_imageid, 'full');
 				$img_headers = get_headers($popup_image_full[0], 1);
 				$info_size = $img_headers["Content-Length"];
-<<<<<<< HEAD
-				if ($info_size != '') {
-					$size_unit = 'bytes';
-					if ($info_size > 1048576) {
-						$info_size = round($info_size / 1048576)." MB";
-					} else if ($info_size > 1024) {
-						$info_size = round($info_size / 1024)." kb";
-					}
-=======
 				$size_unit = 'bytes';
 				if ($info_size > 1048576) {
 					$info_size = round($info_size / 1048576)." MB";
 				} else if ($info_size > 1024) {
 					$info_size = round($info_size / 1024)." kb";
->>>>>>> f9c71feda497fa84d93c8928e8f6048e7ceed386
 				}
 			} else {
 				// no image selected yet - display placeholder image
@@ -1107,13 +1084,7 @@ function cpt_slider_slides_content($post) {
 			echo "<strong>Dimensions:</strong> ".$info_dim."</div>\n";
 			// popup file size
 			echo "<div id='slide".esc_attr($slide_data[$i]['slide_no'])."_popup_info_size' class='slide_popup_info_size'>";
-<<<<<<< HEAD
-			if ($info_size != '') {
-				echo "<strong>File Size:</strong> ".$info_size."</div>\n";
-			}
-=======
 			echo "<strong>File Size:</strong> ".$info_size."</div>\n";
->>>>>>> f9c71feda497fa84d93c8928e8f6048e7ceed386
 			echo "</div>\n";
 			echo "<div style='clear:both; float:none; width:100%; height:1px;'></div>\n";
 			echo "</div>\n";
@@ -1249,11 +1220,7 @@ function cpt_slider_slides_content($post) {
 			echo "<li>Or your Slide Anything sliders can conatin a combination of image, video, HTML and shortcode popups!</li>\n";
 			echo "</ul>\n";
 			echo "<p>To find out more about <strong>SLIDE ANYTHING PRO</strong>, view demos or get your hands on a copy, click ";
-<<<<<<< HEAD
-			echo "<a href='http://edgewebpages.com' title='Slide Anything PRO' target='_blank'>HERE</a>.</p>";
-=======
 			echo "<a href='https://edgewebpages.com' title='Slide Anything PRO' target='_blank'>HERE</a>.</p>";
->>>>>>> f9c71feda497fa84d93c8928e8f6048e7ceed386
 			echo "</div>\n";
 		}
 		echo "</div>\n";
