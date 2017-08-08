@@ -15,3 +15,6 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+wp-config.php
+wp-content/plugins/slide-anything/php/slide-anything-admin.php
+wp-content/plugins/slide-anything/readme.txt
