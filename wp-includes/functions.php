@@ -5639,3 +5639,13 @@ function wp_cache_get_last_changed( $group ) {
 
 	return $last_changed;
 }
+function register_my_menus() {
+register_nav_menus(
+array(
+ 'additional-menu' => __( 'Additional Menu' ),
+ 'another-menu' => __( 'Another Menu' ),
+ 'extra-menu' => __( 'Extra Menu' )
+ )
+ );
+}
+add_action( 'init', 'register_my_menus' );
