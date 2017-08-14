@@ -22,15 +22,15 @@
 /** The name of the database for WordPress */
 define('FS_METHOD', 'direct');
 
-define('DB_NAME', 'testnaim4');
+define('DB_NAME', 'testnaim');
 
 
 
 /** MySQL database username */
-define('DB_USER', 'aklom');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'galata');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
